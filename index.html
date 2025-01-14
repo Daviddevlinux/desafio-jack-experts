@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio DevOps - Jack Experts</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffcd00;
+      color: #333;
+      padding: 20px;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #0044cc; /* Adicionando azul ao título principal */
+      font-size: 3rem;
+      margin-bottom: 30px;
+    }
+
+    .intro-text {
+      text-align: center;
+      font-size: 1.5rem;
+      color: #666;
+    }
+
+    .highlight {
+      color: #ffcd00;
+      font-weight: bold;
+    }
+
+    .content-section {
+      background-color: #fff;
+      padding: 20px;
+      margin: 30px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .content-section h2 {
+      font-size: 2rem;
+      color: #0044cc; /* Azul para os subtítulos */
+      border-left: 6px solid #ffcd00;
+      padding-left: 10px;
+    }
+
+    .content-section p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .skill {
+      flex-basis: 48%;
+      background-color: #ffcd00;
+      color: #333;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0044cc; /* Azul no rodapé */
+      color: white;
+      margin-top: 30px;
+      font-size: 1.2rem;
+    }
+
+    footer a {
+      color: #ffcd00; /* Link com cor amarela no rodapé */
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Bem-vindo à minha Solução!
+  </header>
+
+  <div class="container">
+    <h1>Você chegou à minha solução!</h1>
+    <p class="intro-text">Olá! Meu nome é <span class="highlight">David Maia</span>, sou estudante de <span class="highlight">Sistemas de Informação</span> na <span class="highlight">UFPB</span>, Campus IV, Paraíba, com um forte conhecimento em <span class="highlight">Linux</span> e <span class="highlight">Redes</span>.</p>
+
+    <div class="content-section">
+      <h2>Sobre Mim</h2>
+      <p>Atualmente, estou focado na área de <strong>Infraestrutura</strong>, especialmente em <span class="highlight">DevOps</span>, uma área pela qual sou apaixonado. Tenho investido meus estudos em tecnologias como <strong>Docker</strong>, <strong>Vagrant</strong>, <strong>Terraform</strong>, <strong>Ansible</strong>, <strong>AWS</strong>, <strong>GitHub Actions</strong>, <strong>GitLab Runner</strong>, <strong>Shell Script</strong> e muitas outras.</p>
+      <p>Eu sou estudante do curso de bacharelado em Sistemas de Informação pela Universidade Federal da Paraíba. Durante a minha trajetória, tive contato com várias disciplinas que, junto com diversos cursos práticos, moldaram meu conhecimento na área da computação. Entre essas disciplinas estão:</p>
+      <ul>
+        <li>Sistemas Operacionais</li>
+        <li>Redes de Computadores</li>
+        <li>Algoritmos e Estruturas de Dados</li>
+        <li>Sistemas Distribuídos</li>
+        <li>Avaliação de Desempenho de Sistemas</li>
+      </ul>
+    </div>
+
+    <div class="content-section">
+      <h2>Minhas Habilidades</h2>
+      <div class="skills-list">
+        <div class="skill">Profundo conhecimento em <strong>Linux</strong></div>
+        <div class="skill">Experiência com <strong>Redes</strong></div>
+        <div class="skill">DevOps e automação de infraestruturas</div>
+        <div class="skill">Sistemas Distribuídos e Cloud</div>
+        <div class="skill">Infraestrutura como Código (IaC)</div>
+        <div class="skill">Avaliação de Desempenho de Sistemas</div>
+      </div>
+    </div>
+
+    <div class="content-section">
+      <h2>Desafio DevOps</h2>
+      <p>Fui desafiado a criar uma aplicação simples com uma página HTML customizável, definida via Helm e hospedada em um cluster Kubernetes. Aqui estão os requisitos principais:</p>
+      <ul>
+        <li>Uso de repositório git com Dockerfile e Helm;</li>
+        <li>Imagem construída e publicada no Docker Hub;</li>
+        <li>A imagem não deve rodar com usuário root;</li>
+        <li>A página deve ser configurável via ConfigMap;</li>
+        <li>O Helm define todos os objetos da aplicação;</li>
+        <li>A aplicação possui um domínio para acesso;</li>
+        <li>Todos os objetos no cluster têm a label <span class="highlight">desafio=jackexperts</span>;</li>
+        <li>Documentação completa da solução.</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    Feito por David Maia - Estudante de Sistemas de Informação na UFPB. Veja mais nos meus GitHubs:
+    <a href="https://github.com/Davidmaiadev">GitHub 1 (antigo)</a> | 
+    <a href="https://github.com/DavidDevLinux">GitHub 2 (novo)</a>
+  </footer>
+
+</body>
+</html>

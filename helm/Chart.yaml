@@ -1,0 +1,10 @@
+apiVersion: v2
+name: desafio-jackexperts
+description: Aplicação de exemplo para o desafio
+version: 0.1.0
+appVersion: "1.0"
+apiVersion: v2
+name: desafio-jackexperts
+description: A Helm chart for Kubernetes
+version: 1.0.0
+appVersion: "1.0"

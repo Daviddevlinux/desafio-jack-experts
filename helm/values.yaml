@@ -1,0 +1,25 @@
+replicaCount: 1
+
+image:
+  repository: daviddevlinux/desafio-jackexperts
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 8080
+
+ingress:
+  enabled: true
+  hosts:
+    - host: "desafiojackexperts.davidtechlab.site"
+      
+
+page:
+  title: "Evite o Golpe"
+  header: "Bem-vindo ao Evite O Golpe"
+  content: "Aprenda a se proteger de fraudes online com nosso quiz interativo."
+
+labels:
+  app: desafio-jackexperts
+  desafio: jackexperts
